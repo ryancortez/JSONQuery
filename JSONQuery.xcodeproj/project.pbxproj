@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		943980BB1D46A5DC00DFD00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943980BA1D46A5DC00DFD00F /* AppDelegate.swift */; };
-		943980BD1D46A5DC00DFD00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943980BC1D46A5DC00DFD00F /* ViewController.swift */; };
+		943980BD1D46A5DC00DFD00F /* ColorDisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943980BC1D46A5DC00DFD00F /* ColorDisplayTableViewController.swift */; };
 		943980C01D46A5DC00DFD00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943980BE1D46A5DC00DFD00F /* Main.storyboard */; };
 		943980C21D46A5DC00DFD00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943980C11D46A5DC00DFD00F /* Assets.xcassets */; };
 		943980C51D46A5DC00DFD00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943980C31D46A5DC00DFD00F /* LaunchScreen.storyboard */; };
+		943980CD1D46A79C00DFD00F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943980CC1D46A79C00DFD00F /* Color.swift */; };
+		9475FBB61D470D7D0033A11D /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475FBB51D470D7D0033A11D /* ColorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		943980B71D46A5DC00DFD00F /* JSONQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		943980BA1D46A5DC00DFD00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		943980BC1D46A5DC00DFD00F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		943980BC1D46A5DC00DFD00F /* ColorDisplayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDisplayTableViewController.swift; sourceTree = "<group>"; };
 		943980BF1D46A5DC00DFD00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		943980C11D46A5DC00DFD00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943980C41D46A5DC00DFD00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943980C61D46A5DC00DFD00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943980CC1D46A79C00DFD00F /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9475FBB51D470D7D0033A11D /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				943980BA1D46A5DC00DFD00F /* AppDelegate.swift */,
-				943980BC1D46A5DC00DFD00F /* ViewController.swift */,
+				943980BC1D46A5DC00DFD00F /* ColorDisplayTableViewController.swift */,
+				9475FBB51D470D7D0033A11D /* ColorCell.swift */,
+				943980CC1D46A79C00DFD00F /* Color.swift */,
 				943980BE1D46A5DC00DFD00F /* Main.storyboard */,
 				943980C11D46A5DC00DFD00F /* Assets.xcassets */,
 				943980C31D46A5DC00DFD00F /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943980BD1D46A5DC00DFD00F /* ViewController.swift in Sources */,
+				943980BD1D46A5DC00DFD00F /* ColorDisplayTableViewController.swift in Sources */,
+				9475FBB61D470D7D0033A11D /* ColorCell.swift in Sources */,
 				943980BB1D46A5DC00DFD00F /* AppDelegate.swift in Sources */,
+				943980CD1D46A79C00DFD00F /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				943980CB1D46A5DC00DFD00F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
